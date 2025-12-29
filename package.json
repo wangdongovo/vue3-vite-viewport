@@ -13,7 +13,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/",
+    "format": "prettier --config ./.prettierrc.json --write **.ts **.tsx **.vue",
+    "check": " eslint --ext .ts,.js,.jsx . --fix",
     "prepare": "husky"
   },
   "lint-staged": {
