@@ -20,6 +20,7 @@ export default defineConfigWithVueTs(
   vueTsConfigs.recommended,
   {
     rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
       'vue/multi-word-component-names': [
         'error',
         {
