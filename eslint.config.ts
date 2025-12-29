@@ -26,6 +26,7 @@ export default defineConfigWithVueTs(
           ignores: ['index'],
         },
       ],
+      'no-unused-expressions': 'error',
     },
   },
 

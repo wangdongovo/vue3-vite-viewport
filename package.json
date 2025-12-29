@@ -13,14 +13,14 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix --cache",
-    "format": "prettier --config ./.prettierrc.json --write **.ts **.tsx **.vue",
-    "check": " eslint --ext .ts,.js,.jsx . --fix",
+    "format": "prettier --config ./.prettierrc.json --write **.ts **.vue",
+    "check": " eslint --ext .ts,.js,.jsx,.vue . --fix",
     "prepare": "husky"
   },
   "lint-staged": {
-    "**/*.{js,ts,jsx,tsx,json,css,less,md}": [
-      "prettier --config ./.prettierrc.json --write",
-      "eslint --fix"
+    "**/*.{js,ts,jsx,tsx,json,css,less,md,vue}": [
+      "pnpm format",
+      "pnpm check"
     ]
   },
   "commitlint": {

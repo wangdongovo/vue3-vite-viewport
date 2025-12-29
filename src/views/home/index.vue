@@ -1,6 +1,4 @@
-<script setup lang="ts">
-12321
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="home-page">
