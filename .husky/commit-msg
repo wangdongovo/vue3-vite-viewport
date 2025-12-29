@@ -1,0 +1,13 @@
+printf "\e[38;5;46m开始\e[0m"
+printf "\e[38;5;47m进行\e[0m"
+printf "\e[38;5;48mCommitlint\e[0m"
+printf "\e[38;5;49m规范\e[0m"
+printf "\e[38;5;50m校验\e[0m\n"  
+
+npx --no-install commitlint --edit "$1" --color
+
+printf "\e[38;5;46m已经\e[0m"
+printf "\e[38;5;47m完成\e[0m"
+printf "\e[38;5;48mcommitlint\e[0m"
+printf "\e[38;5;49m规范\e[0m"
+printf "\e[38;5;50m校验\e[0m\n"

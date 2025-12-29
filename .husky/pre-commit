@@ -1,0 +1,13 @@
+printf "\e[38;5;46m开始执行\e[0m"
+printf "\e[38;5;47mPrettier、\e[0m"
+printf "\e[38;5;48mEslint\e[0m"
+printf "\e[38;5;49m规范\e[0m"
+printf "\e[38;5;50m校验\e[0m\n"  
+
+npx lint-staged
+
+printf "\e[38;5;46m已完成\e[0m"
+printf "\e[38;5;47mPrettier、\e[0m"
+printf "\e[38;5;48mEslint\e[0m"
+printf "\e[38;5;49m规范\e[0m"
+printf "\e[38;5;50m校验\e[0m\n"
