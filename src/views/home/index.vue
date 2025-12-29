@@ -3,6 +3,10 @@
 <template>
   <div class="home-page">
     <div class="nav-section">首页</div>
+    <span
+      >123
+      <p>. 4. 56</p>
+    </span>
   </div>
 </template>
 
